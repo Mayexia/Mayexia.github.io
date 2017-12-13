@@ -1,0 +1,561 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>学习示例 · Maye的个人笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Chengwei Yang <me@chengweiyang.cn>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../matplotlibhua-tu.html" />
+    
+    
+    <link rel="prev" href="../matplotlib.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://xcbachelor.github.io/" target="_blank" class="custom-link">Maye的个人博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    个人学习笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../xue-xi-bi-ji.html">
+            
+                <a href="../../xue-xi-bi-ji.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    数据分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../matplotlib.html">
+            
+                <a href="../matplotlib.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    matplotlib
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1.1" data-path="matplotlibhua-tu.html">
+            
+                <a href="matplotlibhua-tu.html">
+            
+                    
+                        <b>1.2.1.1.</b>
+                    
+                    学习示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../matplotlibhua-tu.html">
+            
+                <a href="../matplotlibhua-tu.html">
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    学习示例2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >学习示例</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5B66;&#x4E60;&#x793A;&#x4F8B;"><a name="&#x5B66;&#x4E60;&#x793A;&#x4F8B;" class="anchor-navigation-ex-anchor" href="#&#x5B66;&#x4E60;&#x793A;&#x4F8B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B66;&#x4E60;&#x793A;&#x4F8B;</h1>
+<h2 id="pylab&#x5E93;&#x753B;&#x56FE;"><a name="pylab&#x5E93;&#x753B;&#x56FE;" class="anchor-navigation-ex-anchor" href="#pylab&#x5E93;&#x753B;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>pylab&#x5E93;&#x753B;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> pylab <span class="hljs-keyword">as</span> plb
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+plb.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+X = np.linspace(-np.pi,np.pi,<span class="hljs-number">256</span>,endpoint=<span class="hljs-keyword">True</span>)
+(C,S)=np.cos(X),np.sin(X)
+<span class="hljs-comment"># &#x7ED8;&#x5236;&#x4F59;&#x5F26;&#x66F2;&#x7EBF;&#xFF0C;&#x4F7F;&#x7528;&#x84DD;&#x8272;&#x7684;&#x3001;&#x8FDE;&#x7EED;&#x7684;&#x3001;&#x5BBD;&#x5EA6;&#x4E3A; 1 &#xFF08;&#x50CF;&#x7D20;&#xFF09;&#x7684;&#x7EBF;&#x6761;</span>
+plb.plot(X, C, color=<span class="hljs-string">&quot;blue&quot;</span>, linewidth=<span class="hljs-number">1.0</span>, linestyle=<span class="hljs-string">&quot;-&quot;</span>)
+plb.plot(X,S,color=<span class="hljs-string">&quot;red&quot;</span>,linewidth=<span class="hljs-number">1.0</span>,linestyle=<span class="hljs-string">&quot;-&quot;</span>)
+plb.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_2_0.png" alt="png"></p>
+<h2 id="pyplot&#x5E93;&#x753B;&#x56FE;"><a name="pyplot&#x5E93;&#x753B;&#x56FE;" class="anchor-navigation-ex-anchor" href="#pyplot&#x5E93;&#x753B;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>pyplot&#x5E93;&#x753B;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+X = np.linspace(-np.pi,np.pi,<span class="hljs-number">256</span>,endpoint=<span class="hljs-keyword">True</span>)
+(C,S)=np.cos(X),np.sin(X)
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+plt.subplot(<span class="hljs-number">111</span>)
+
+<span class="hljs-comment">#&#x7ED8;&#x5236;&#x4F59;&#x5F26;</span>
+plt.plot(X, C, color=<span class="hljs-string">&quot;blue&quot;</span>, linewidth=<span class="hljs-number">2.0</span>, linestyle=<span class="hljs-string">&quot;-&quot;</span>,label=<span class="hljs-string">&quot;cosine&quot;</span>)
+
+<span class="hljs-comment">#&#x7ED8;&#x5236;&#x6B63;&#x5F26;</span>
+plt.plot(X, S, color=<span class="hljs-string">&quot;red&quot;</span>, linewidth=<span class="hljs-number">2.0</span>, linestyle=<span class="hljs-string">&quot;-&quot;</span>,label=<span class="hljs-string">&quot;sine&quot;</span>)
+
+<span class="hljs-comment">#&#x8FB9;&#x754C;&#x8BBE;&#x7F6E;&#x5F97;&#x4E0D;&#x597D;&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x4E9B;&#x5730;&#x65B9;&#x770B;&#x5F97;&#x4E0D;&#x662F;&#x5F88;&#x6E05;&#x695A;</span>
+xmin ,xmax = X.min(), X.max()
+ymin, ymax = C.min(), C.max()
+
+dx = (xmax - xmin) * <span class="hljs-number">0.2</span>
+dy = (ymax - ymin) * <span class="hljs-number">0.2</span>
+
+<span class="hljs-comment">#&#x8BBE;&#x7F6E;x&#x8F74;&#x4E0A;&#x4E0B;&#x9650;</span>
+plt.xlim(xmin - dx, xmax + dx)
+
+<span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x6A2A;&#x8F74;&#x8BB0;&#x53F7;</span>
+plt.xticks(np.linspace(<span class="hljs-number">-4</span>,<span class="hljs-number">4</span>,<span class="hljs-number">9</span>,endpoint=<span class="hljs-keyword">True</span>))
+
+<span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x7EB5;&#x8F74;&#x7684;&#x4E0A;&#x4E0B;&#x9650;</span>
+plt.ylim(ymin - dy, ymax + dy)
+
+<span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x7EB5;&#x8F74;&#x8BB0;&#x53F7;</span>
+plt. yticks(np.linspace(<span class="hljs-number">-1</span>,<span class="hljs-number">1</span>,<span class="hljs-number">5</span>,endpoint=<span class="hljs-keyword">True</span>))
+
+<span class="hljs-comment">#&#x6211;&#x4EEC;&#x8BA8;&#x8BBA;&#x6B63;&#x5F26;&#x548C;&#x4F59;&#x5F26;&#x51FD;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x901A;&#x5E38;&#x5E0C;&#x671B;&#x77E5;&#x9053;&#x51FD;&#x6570;&#x5728; &#xB1;&#x3C0;&#xB1;&#x3C0; &#x548C; &#xB1;&#x3C0;2&#xB1;&#x3C0;2 &#x7684;&#x503C;</span>
+plt.xticks([-np.pi, -np.pi/<span class="hljs-number">2</span>, <span class="hljs-number">0</span>, np.pi/<span class="hljs-number">2</span>, np.pi],
+       [<span class="hljs-string">r&apos;$-\pi$&apos;</span>, <span class="hljs-string">r&apos;$-\pi/2$&apos;</span>, <span class="hljs-string">r&apos;$0$&apos;</span>, <span class="hljs-string">r&apos;$+\pi/2$&apos;</span>, <span class="hljs-string">r&apos;$+\pi$&apos;</span>])
+
+plt.yticks([<span class="hljs-number">-1</span>, <span class="hljs-number">0</span>, +<span class="hljs-number">1</span>],
+       [<span class="hljs-string">r&apos;$-1$&apos;</span>, <span class="hljs-string">r&apos;$0$&apos;</span>, <span class="hljs-string">r&apos;$+1$&apos;</span>])
+
+<span class="hljs-comment"># plt.show()</span>
+</code></pre>
+<pre><code>([&lt;matplotlib.axis.YTick at 0x10f80d748&gt;,
+  &lt;matplotlib.axis.YTick at 0x10f80d9e8&gt;,
+  &lt;matplotlib.axis.YTick at 0x10f800240&gt;],
+ &lt;a list of 3 Text yticklabel objects&gt;)
+</code></pre><p>&#x5B9E;&#x9645;&#x4E0A;&#x6BCF;&#x5E45;&#x56FE;&#x6709;&#x56DB;&#x6761;&#x810A;&#x67F1;&#xFF08;&#x4E0A;&#x4E0B;&#x5DE6;&#x53F3;&#xFF09;&#xFF0C;&#x4E3A;&#x4E86;&#x5C06;&#x810A;&#x67F1;&#x653E;&#x5728;&#x56FE;&#x7684;&#x4E2D;&#x95F4;&#xFF0C;&#x6211;&#x4EEC;&#x5FC5;&#x987B;&#x5C06;&#x5176;&#x4E2D;&#x7684;&#x4E24;&#x6761;&#xFF08;&#x4E0A;&#x548C;&#x53F3;&#xFF09;&#x8BBE;&#x7F6E;&#x4E3A;&#x65E0;&#x8272;&#xFF0C;&#x7136;&#x540E;&#x8C03;&#x6574;&#x5269;&#x4E0B;&#x7684;&#x4E24;&#x6761;&#x5230;&#x5408;&#x9002;&#x7684;&#x4F4D;&#x7F6E;&#x2014;&#x2014;&#x6570;&#x636E;&#x7A7A;&#x95F4;&#x7684; 0 &#x70B9;&#x3002;</p>
+<pre><code class="lang-python">ax = plt.gca()
+ax.spines[<span class="hljs-string">&apos;right&apos;</span>].set_color(<span class="hljs-string">&apos;none&apos;</span>)
+ax.spines[<span class="hljs-string">&apos;top&apos;</span>].set_color(<span class="hljs-string">&apos;none&apos;</span>)
+ax.xaxis.set_ticks_position(<span class="hljs-string">&apos;bottom&apos;</span>)
+ax.spines[<span class="hljs-string">&apos;bottom&apos;</span>].set_position((<span class="hljs-string">&apos;data&apos;</span>,<span class="hljs-number">0</span>))
+ax.yaxis.set_ticks_position(<span class="hljs-string">&apos;left&apos;</span>)
+ax.spines[<span class="hljs-string">&apos;left&apos;</span>].set_position((<span class="hljs-string">&apos;data&apos;</span>,<span class="hljs-number">0</span>))
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x5728;&#x56FE;&#x7684;&#x5DE6;&#x4E0A;&#x89D2;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x56FE;&#x4F8B;&#x3002;&#x4E3A;&#x6B64;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x5728; plot &#x51FD;&#x6570;&#x91CC;&#x4EE5;&#x300C;&#x952E; - &#x503C;&#x300D;&#x7684;&#x5F62;&#x5F0F;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x3002;</p>
+<pre><code class="lang-python">plt.legend(loc=<span class="hljs-string">&apos;upper left&apos;</span>)
+</code></pre>
+<pre><code>&lt;matplotlib.legend.Legend at 0x10648fb70&gt;
+</code></pre><p>&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x5728; 2&#x3C0;/32&#x3C0;/3 &#x7684;&#x4F4D;&#x7F6E;&#x7ED9;&#x4E24;&#x6761;&#x51FD;&#x6570;&#x66F2;&#x7EBF;&#x52A0;&#x4E0A;&#x4E00;&#x4E2A;&#x6CE8;&#x91CA;&#x3002;&#x9996;&#x5148;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x5BF9;&#x5E94;&#x7684;&#x51FD;&#x6570;&#x56FE;&#x50CF;&#x4F4D;&#x7F6E;&#x4E0A;&#x753B;&#x4E00;&#x4E2A;&#x70B9;&#xFF1B;&#x7136;&#x540E;&#xFF0C;&#x5411;&#x6A2A;&#x8F74;&#x5F15;&#x4E00;&#x6761;&#x5782;&#x7EBF;&#xFF0C;&#x4EE5;&#x865A;&#x7EBF;&#x6807;&#x8BB0;&#xFF1B;&#x6700;&#x540E;&#xFF0C;&#x5199;&#x4E0A;&#x6807;&#x7B7E;</p>
+<pre><code class="lang-python">t = <span class="hljs-number">2</span>*np.pi/<span class="hljs-number">3</span>
+plt.plot([t,t],[<span class="hljs-number">0</span>,np.cos(t)], color =<span class="hljs-string">&apos;blue&apos;</span>, linewidth=<span class="hljs-number">2.5</span>, linestyle=<span class="hljs-string">&quot;--&quot;</span>)
+plt.scatter([t,],[np.cos(t),], <span class="hljs-number">50</span>, color =<span class="hljs-string">&apos;blue&apos;</span>)
+
+plt.annotate(<span class="hljs-string">r&apos;$\sin(\frac{2\pi}{3})=\frac{\sqrt{3}}{2}$&apos;</span>,
+         xy=(t, np.sin(t)), xycoords=<span class="hljs-string">&apos;data&apos;</span>,
+         xytext=(+<span class="hljs-number">10</span>, +<span class="hljs-number">30</span>), textcoords=<span class="hljs-string">&apos;offset points&apos;</span>, fontsize=<span class="hljs-number">16</span>,
+         arrowprops=dict(arrowstyle=<span class="hljs-string">&quot;-&gt;&quot;</span>, connectionstyle=<span class="hljs-string">&quot;arc3,rad=.2&quot;</span>))
+
+plt.plot([t,t],[<span class="hljs-number">0</span>,np.sin(t)], color =<span class="hljs-string">&apos;red&apos;</span>, linewidth=<span class="hljs-number">2.5</span>, linestyle=<span class="hljs-string">&quot;--&quot;</span>)
+plt.scatter([t,],[np.sin(t),], <span class="hljs-number">50</span>, color =<span class="hljs-string">&apos;red&apos;</span>)
+
+plt.annotate(<span class="hljs-string">r&apos;$\cos(\frac{2\pi}{3})=-\frac{1}{2}$&apos;</span>,
+         xy=(t, np.cos(t)), xycoords=<span class="hljs-string">&apos;data&apos;</span>,
+         xytext=(<span class="hljs-number">-90</span>, <span class="hljs-number">-50</span>), textcoords=<span class="hljs-string">&apos;offset points&apos;</span>, fontsize=<span class="hljs-number">16</span>,
+         arrowprops=dict(arrowstyle=<span class="hljs-string">&quot;-&gt;&quot;</span>, connectionstyle=<span class="hljs-string">&quot;arc3,rad=.2&quot;</span>))
+</code></pre>
+<pre><code>Text(-90,-50,&apos;$\\cos(\\frac{2\\pi}{3})=-\\frac{1}{2}$&apos;)
+</code></pre><pre><code class="lang-python">plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_11_0.png" alt="png"></p>
+<h2 id="&#x6563;&#x70B9;&#x56FE;"><a name="&#x6563;&#x70B9;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x6563;&#x70B9;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6563;&#x70B9;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+n = <span class="hljs-number">1024</span>
+X_1 = np.random.normal(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,n)
+Y_1 = np.random.normal(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,n)
+
+X_2 = np.random.normal(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,n)
+Y_2 = np.random.normal(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,n)
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+plt.subplot(<span class="hljs-number">111</span>)
+plt.scatter(X_1,Y_1,color=<span class="hljs-string">&quot;red&quot;</span>)
+plt.scatter(X_2,Y_2,color=<span class="hljs-string">&quot;blue&quot;</span>)
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_13_0.png" alt="png"></p>
+<h2 id="&#x6761;&#x5F62;&#x56FE;"><a name="&#x6761;&#x5F62;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x6761;&#x5F62;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6761;&#x5F62;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+n = <span class="hljs-number">12</span>
+X = np.arange(n)
+Y1 = (<span class="hljs-number">1</span>-X/float(n)) * np.random.uniform(<span class="hljs-number">0.5</span>,<span class="hljs-number">1.0</span>,n)
+Y2 = (<span class="hljs-number">1</span>-X/float(n)) * np.random.uniform(<span class="hljs-number">0.5</span>,<span class="hljs-number">1.0</span>,n)
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+plt.subplot(<span class="hljs-number">111</span>)
+plt.bar(X, +Y1, facecolor=<span class="hljs-string">&apos;#9999ff&apos;</span>, edgecolor=<span class="hljs-string">&apos;white&apos;</span>)
+plt.bar(X, -Y2, facecolor=<span class="hljs-string">&apos;#ff9999&apos;</span>, edgecolor=<span class="hljs-string">&apos;white&apos;</span>)
+
+<span class="hljs-keyword">for</span> x,y <span class="hljs-keyword">in</span> zip(X,Y1):
+    plt.text(x+<span class="hljs-number">0.4</span>, y+<span class="hljs-number">0.05</span>, <span class="hljs-string">&apos;%.2f&apos;</span> % y, ha=<span class="hljs-string">&apos;center&apos;</span>, va= <span class="hljs-string">&apos;bottom&apos;</span>)
+
+plt.ylim(<span class="hljs-number">-1.25</span>,+<span class="hljs-number">1.25</span>)
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_15_0.png" alt="png"></p>
+<h2 id="&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;"><a name="&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(x,y)</span>:</span> <span class="hljs-keyword">return</span> (<span class="hljs-number">1</span>-x/<span class="hljs-number">2</span>+x**<span class="hljs-number">5</span>+y**<span class="hljs-number">3</span>)*np.exp(-x**<span class="hljs-number">2</span>-y**<span class="hljs-number">2</span>)
+
+n = <span class="hljs-number">256</span>
+x = np.linspace(<span class="hljs-number">-3</span>,<span class="hljs-number">3</span>,n)
+y = np.linspace(<span class="hljs-number">-3</span>,<span class="hljs-number">3</span>,n)
+X,Y = np.meshgrid(x,y)
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+<span class="hljs-comment"># plt.subplot(111)</span>
+plt.contourf(X, Y, f(X,Y), <span class="hljs-number">8</span>, alpha=<span class="hljs-number">.75</span>, cmap=<span class="hljs-string">&apos;jet&apos;</span>)
+C = plt.contour(X, Y, f(X,Y), <span class="hljs-number">8</span>, colors=<span class="hljs-string">&apos;black&apos;</span>, linewidth=<span class="hljs-number">0.5</span>)
+plt.show()
+</code></pre>
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/contour.py:967: UserWarning: The following kwargs were not used by contour: &apos;linewidth&apos;
+  s)
+</code></pre><p><img src="../../assets/matplotlib_pictures/output_17_1.png" alt="png"></p>
+<h2 id="&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;"><a name="&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7070;&#x5EA6;&#x56FE;&#xFF08;Imshow&#xFF09;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(x,y)</span>:</span> <span class="hljs-keyword">return</span> (<span class="hljs-number">1</span>-x/<span class="hljs-number">2</span>+x**<span class="hljs-number">5</span>+y**<span class="hljs-number">3</span>)*np.exp(-x**<span class="hljs-number">2</span>-y**<span class="hljs-number">2</span>)
+n = <span class="hljs-number">10</span>
+x = np.linspace(<span class="hljs-number">-3</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>*n)
+y = np.linspace(<span class="hljs-number">-3</span>,<span class="hljs-number">3</span>,<span class="hljs-number">3</span>*n)
+X,Y = np.meshgrid(x,y)
+plt.imshow(f(X,Y))
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_19_0.png" alt="png"></p>
+<h2 id="&#x997C;&#x72B6;&#x56FE;"><a name="&#x997C;&#x72B6;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x997C;&#x72B6;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x997C;&#x72B6;&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+n = <span class="hljs-number">20</span>
+Z = np.random.uniform(<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,n)
+plt.pie(Z)
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_21_0.png" alt="png"></p>
+<h2 id="&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;"><a name="&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x91CF;&#x573A;&#x56FE;&#xFF08;Quiver Plots&#xFF09;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+n = <span class="hljs-number">8</span>
+X,Y = np.mgrid[<span class="hljs-number">0</span>:n,<span class="hljs-number">0</span>:n]
+plt.quiver(X,Y)
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_23_0.png" alt="png"></p>
+<h2 id="&#x7F51;&#x683C;"><a name="&#x7F51;&#x683C;" class="anchor-navigation-ex-anchor" href="#&#x7F51;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7F51;&#x683C;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+y = np.arange(<span class="hljs-number">1</span>, <span class="hljs-number">5</span>)
+plt.plot(y , y+<span class="hljs-number">2</span>)
+plt.grid() <span class="hljs-comment"># == plt.grid(True)</span>
+plt.grid(color=<span class="hljs-string">&apos;b&apos;</span> , linewidth=<span class="hljs-string">&apos;0.3&apos;</span> ,linestyle=<span class="hljs-string">&apos;--&apos;</span>)
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_25_0.png" alt="png"></p>
+<h2 id="&#x591A;&#x91CD;&#x7F51;&#x7EDC;"><a name="&#x591A;&#x91CD;&#x7F51;&#x7EDC;" class="anchor-navigation-ex-anchor" href="#&#x591A;&#x91CD;&#x7F51;&#x7EDC;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x591A;&#x91CD;&#x7F51;&#x7EDC;</h2>
+<h4 id="&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;"><a name="&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;</h4>
+<ul>
+<li>&#x5C06;&#x6574;&#x4E2A;&#x8868;&#x6309;&#x7167; 2*2 &#x5212;&#x5206;</li>
+<li>&#x524D;&#x4E24;&#x4E2A;&#x7B80;&#x5355;, &#x5206;&#x522B;&#x662F; (2, 2, 1) &#x548C; (2, 2, 2)</li>
+<li>&#x4F46;&#x662F;&#x7B2C;&#x4E09;&#x4E2A;&#x56FE;&#x5462;, &#x4ED6;&#x5360;&#x7528;&#x4E86; (2, 2, 3) &#x548C; (2, 2, 4)</li>
+<li>&#x663E;&#x793A;&#x9700;&#x8981;&#x5BF9;&#x5176;&#x91CD;&#x65B0;&#x5212;&#x5206;, &#x6309;&#x7167; 2 * 1 &#x5212;&#x5206;</li>
+<li>&#x524D;&#x4E24;&#x4E2A;&#x56FE;&#x5360;&#x7528;&#x4E86; (2, 1, 1) &#x7684;&#x4F4D;&#x7F6E;</li>
+<li>&#x56E0;&#x6B64;&#x7B2C;&#x4E09;&#x4E2A;&#x56FE;&#x5360;&#x7528;&#x4E86; (2, 1, 2) &#x7684;&#x4F4D;&#x7F6E;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np  
+<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt  
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(t)</span>:</span><span class="hljs-keyword">return</span> np.exp(-t) * np.cos(<span class="hljs-number">2</span> * np.pi * t)
+t1 = np.arange(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0.1</span>)
+t2 = np.arange(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0.02</span>)
+plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+plt.subplot(<span class="hljs-number">2</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>)
+plt.plot(t1, f(t1), <span class="hljs-string">&apos;bo&apos;</span>, t2, f(t2), <span class="hljs-string">&apos;r--&apos;</span>)
+
+plt.subplot(<span class="hljs-number">2</span>,<span class="hljs-number">2</span>,<span class="hljs-number">2</span>)
+plt.plot(t2, np.cos(<span class="hljs-number">2</span> * np.pi * t2), <span class="hljs-string">&apos;r--&apos;</span>)
+
+plt.subplot(<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>)
+plt.plot([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>], [<span class="hljs-number">1</span>, <span class="hljs-number">4</span>, <span class="hljs-number">9</span>, <span class="hljs-number">16</span>])
+
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_27_0.png" alt="png"></p>
+<h2 id="3d&#x56FE;"><a name="3d&#x56FE;" class="anchor-navigation-ex-anchor" href="#3d&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>3D&#x56FE;</h2>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">from</span> mpl_toolkits.mplot3d <span class="hljs-keyword">import</span> Axes3D
+
+fig = plt.figure(figsize=(<span class="hljs-number">8</span>,<span class="hljs-number">6</span>), dpi=<span class="hljs-number">80</span>)
+ax = Axes3D(fig)
+X = np.arange(<span class="hljs-number">-4</span>, <span class="hljs-number">4</span>, <span class="hljs-number">0.25</span>)
+Y = np.arange(<span class="hljs-number">-4</span>, <span class="hljs-number">4</span>, <span class="hljs-number">0.25</span>)
+X, Y = np.meshgrid(X, Y)
+R = np.sqrt(X**<span class="hljs-number">2</span> + Y**<span class="hljs-number">2</span>)
+Z = np.sin(R)
+
+ax.plot_surface(X, Y, Z, rstride=<span class="hljs-number">1</span>, cstride=<span class="hljs-number">1</span>, cmap=<span class="hljs-string">&apos;hot&apos;</span>)
+
+plt.show()
+</code></pre>
+<p><img src="../../assets/matplotlib_pictures/output_29_0.png" alt="png"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../matplotlib.html" class="navigation navigation-prev " aria-label="Previous page: matplotlib">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../matplotlibhua-tu.html" class="navigation navigation-next " aria-label="Next page: 学习示例2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"学习示例","level":"1.2.1.1","depth":3,"next":{"title":"学习示例2","level":"1.2.2","depth":2,"path":"xue-xi-bi-ji/matplotlibhua-tu.md","ref":"xue-xi-bi-ji/matplotlibhua-tu.md","articles":[]},"previous":{"title":"matplotlib","level":"1.2.1","depth":2,"path":"xue-xi-bi-ji/matplotlib.md","ref":"xue-xi-bi-ji/matplotlib.md","articles":[{"title":"学习示例","level":"1.2.1.1","depth":3,"path":"xue-xi-bi-ji/matplotlib/matplotlibhua-tu.md","ref":"xue-xi-bi-ji/matplotlib/matplotlibhua-tu.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-search","search-pro","katex","anchor-navigation-ex","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"size":2,"family":"serif","livereload":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"theme":"sepia","lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"isRewritePageTitle":true,"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"Chengwei Yang <me@chengweiyang.cn>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Maye的个人笔记","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"Maye的个人博客":"https://xcbachelor.github.io/"}},"gitbook":"*","description":"This is a sample book created by gitbook","extension":null},"file":{"path":"xue-xi-bi-ji/matplotlib/matplotlibhua-tu.md","mtime":"2017-12-12T16:14:23.069Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-12T16:54:11.472Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
