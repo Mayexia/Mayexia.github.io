@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>学习笔记01-基本示例 · Maye的个人笔记</title>
+        <title>matplotlib基本绘图示例 · Maye的个人笔记</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -13,40 +13,40 @@
         
     
     
-    <link rel="stylesheet" href="../../gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
                 
             
                 
@@ -54,27 +54,27 @@
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-terminal/plugin.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-alerts/style.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
                 
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
         
@@ -82,8 +82,6 @@
     
 
     
-        
-        <link rel="stylesheet" href="../../styles/website.css">
         
     
         
@@ -109,24 +107,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../../工程工具/git连接多个账号.html" />
+    <link rel="next" href="../工程工具/git连接多个账号.html" />
     
     
-    <link rel="prev" href="matplotlib.html" />
-    
-
-    
-    <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chart/c3/c3.min.css">
-    <script src="../../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
-    <script src="../../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    <link rel="prev" href="../" />
     
 
-    <script src="../../gitbook/gitbook-plugin-graph/d3.min.js"></script>
-    <script src="../../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
 
     </head>
     <body>
@@ -161,13 +159,13 @@
 
     
         
-        <li class="header">数据分析</li>
+        <li class="header">介绍</li>
         
         
     
-        <li class="chapter " data-level="1.1" data-path="../../">
+        <li class="chapter " data-level="1.1" data-path="../">
             
-                <a href="../../">
+                <a href="../">
             
                     
                         <b>1.1.</b>
@@ -180,39 +178,25 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="matplotlib.html">
+
+    
+        
+        <li class="header">数据分析</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="matplotlib基本绘图示例.html">
             
-                <a href="matplotlib.html">
+                <a href="matplotlib基本绘图示例.html">
             
                     
-                        <b>1.2.</b>
+                        <b>2.1.</b>
                     
-                    matplotlib
+                    matplotlib基本绘图示例
             
                 </a>
             
 
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter active" data-level="1.2.1" data-path="基本绘图示例.html">
-            
-                <a href="基本绘图示例.html">
-            
-                    
-                        <b>1.2.1.</b>
-                    
-                    学习笔记01-基本示例
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -223,12 +207,12 @@
         
         
     
-        <li class="chapter " data-level="2.1" data-path="../../工程工具/git连接多个账号.html">
+        <li class="chapter " data-level="3.1" data-path="../工程工具/git连接多个账号.html">
             
-                <a href="../../工程工具/git连接多个账号.html">
+                <a href="../工程工具/git连接多个账号.html">
             
                     
-                        <b>2.1.</b>
+                        <b>3.1.</b>
                     
                     git链接多个账号
             
@@ -245,12 +229,12 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../../gitbook_files/introduction.html">
+        <li class="chapter " data-level="4.1" data-path="../gitbook_files/introduction.html">
             
-                <a href="../../gitbook_files/introduction.html">
+                <a href="../gitbook_files/introduction.html">
             
                     
-                        <b>3.1.</b>
+                        <b>4.1.</b>
                     
                     前言
             
@@ -260,12 +244,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="../../gitbook_files/installation.html">
+        <li class="chapter " data-level="4.2" data-path="../gitbook_files/installation.html">
             
-                <a href="../../gitbook_files/installation.html">
+                <a href="../gitbook_files/installation.html">
             
                     
-                        <b>3.2.</b>
+                        <b>4.2.</b>
                     
                     安装
             
@@ -275,12 +259,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.3" data-path="../../gitbook_files/commands.html">
+        <li class="chapter " data-level="4.3" data-path="../gitbook_files/commands.html">
             
-                <a href="../../gitbook_files/commands.html">
+                <a href="../gitbook_files/commands.html">
             
                     
-                        <b>3.3.</b>
+                        <b>4.3.</b>
                     
                     命令
             
@@ -290,12 +274,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.4" data-path="../../gitbook_files/structure.html">
+        <li class="chapter " data-level="4.4" data-path="../gitbook_files/structure.html">
             
-                <a href="../../gitbook_files/structure.html">
+                <a href="../gitbook_files/structure.html">
             
                     
-                        <b>3.4.</b>
+                        <b>4.4.</b>
                     
                     目录结构
             
@@ -305,12 +289,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="../../gitbook_files/settings.html">
+        <li class="chapter " data-level="4.5" data-path="../gitbook_files/settings.html">
             
-                <a href="../../gitbook_files/settings.html">
+                <a href="../gitbook_files/settings.html">
             
                     
-                        <b>3.5.</b>
+                        <b>4.5.</b>
                     
                     配置
             
@@ -320,12 +304,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.6" data-path="../../gitbook_files/plugins.html">
+        <li class="chapter " data-level="4.6" data-path="../gitbook_files/plugins.html">
             
-                <a href="../../gitbook_files/plugins.html">
+                <a href="../gitbook_files/plugins.html">
             
                     
-                        <b>3.6.</b>
+                        <b>4.6.</b>
                     
                     插件
             
@@ -335,12 +319,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.7" data-path="../../gitbook_files/themes.html">
+        <li class="chapter " data-level="4.7" data-path="../gitbook_files/themes.html">
             
-                <a href="../../gitbook_files/themes.html">
+                <a href="../gitbook_files/themes.html">
             
                     
-                        <b>3.7.</b>
+                        <b>4.7.</b>
                     
                     主题
             
@@ -350,12 +334,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.8" data-path="../../gitbook_files/bookjson.html">
+        <li class="chapter " data-level="4.8" data-path="../gitbook_files/bookjson.md">
             
-                <a href="../../gitbook_files/bookjson.html">
+                <span>
             
                     
-                        <b>3.8.</b>
+                        <b>4.8.</b>
                     
                     bookjson
             
@@ -395,7 +379,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >学习笔记01-基本示例</a>
+        <a href=".." >matplotlib基本绘图示例</a>
     </h1>
 </div>
 
@@ -422,7 +406,7 @@ plb.plot(X, C, color=&quot;blue&quot;, linewidth=1.0, linestyle=&quot;-&quot;)
 plb.plot(X,S,color=&quot;red&quot;,linewidth=1.0,linestyle=&quot;-&quot;)
 plb.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_2_0.png" alt="png"></p>
+<p><img src="images/paper01/output_2_0.png" alt="png"></p>
 <h2 id="pyplot&#x5E93;&#x753B;&#x56FE;"><a name="pyplot&#x5E93;&#x753B;&#x56FE;" class="anchor-navigation-ex-anchor" href="#pyplot&#x5E93;&#x753B;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>pyplot&#x5E93;&#x753B;&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -497,7 +481,7 @@ plt.annotate(r&apos;$\cos(\frac{2\pi}{3})=-\frac{1}{2}$&apos;,
 </code></pre>
 <pre><code class="lang-python">plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_11_0.png" alt="png"></p>
+<p><img src="images/paper01/output_11_0.png" alt="png"></p>
 <h2 id="&#x6563;&#x70B9;&#x56FE;"><a name="&#x6563;&#x70B9;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x6563;&#x70B9;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6563;&#x70B9;&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -513,7 +497,7 @@ plt.scatter(X_1,Y_1,color=&quot;red&quot;)
 plt.scatter(X_2,Y_2,color=&quot;blue&quot;)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_13_0.png" alt="png"></p>
+<p><img src="images/paper01/output_13_0.png" alt="png"></p>
 <h2 id="&#x6761;&#x5F62;&#x56FE;"><a name="&#x6761;&#x5F62;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x6761;&#x5F62;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6761;&#x5F62;&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -532,7 +516,7 @@ for x,y in zip(X,Y1):
 plt.ylim(-1.25,+1.25)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_15_0.png" alt="png"></p>
+<p><img src="images/paper01/output_15_0.png" alt="png"></p>
 <h2 id="&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;"><a name="&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B49;&#x9AD8;&#x7EBF;&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -549,7 +533,7 @@ plt.contourf(X, Y, f(X,Y), 8, alpha=.75, cmap=&apos;jet&apos;)
 C = plt.contour(X, Y, f(X,Y), 8, colors=&apos;black&apos;, linewidth=0.5)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_17_1.png" alt="png"></p>
+<p><img src="images/paper01/output_17_1.png" alt="png"></p>
 <h2 id="&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;"><a name="&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x7070;&#x5EA6;&#x56FE;&#xFF08;imshow&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7070;&#x5EA6;&#x56FE;&#xFF08;Imshow&#xFF09;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -562,7 +546,7 @@ X,Y = np.meshgrid(x,y)
 plt.imshow(f(X,Y))
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_19_0.png" alt="png"></p>
+<p><img src="images/paper01/output_19_0.png" alt="png"></p>
 <h2 id="&#x997C;&#x72B6;&#x56FE;"><a name="&#x997C;&#x72B6;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x997C;&#x72B6;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x997C;&#x72B6;&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -572,7 +556,7 @@ Z = np.random.uniform(0,1,n)
 plt.pie(Z)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_21_0.png" alt="png"></p>
+<p><img src="images/paper01/output_21_0.png" alt="png"></p>
 <h2 id="&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;"><a name="&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x91CF;&#x573A;&#x56FE;&#xFF08;quiver-plots&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x91CF;&#x573A;&#x56FE;&#xFF08;Quiver Plots&#xFF09;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -582,7 +566,7 @@ X,Y = np.mgrid[0:n,0:n]
 plt.quiver(X,Y)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_23_0.png" alt="png"></p>
+<p><img src="images/paper01/output_23_0.png" alt="png"></p>
 <h2 id="&#x7F51;&#x683C;"><a name="&#x7F51;&#x683C;" class="anchor-navigation-ex-anchor" href="#&#x7F51;&#x683C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7F51;&#x683C;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 import numpy as np
@@ -593,7 +577,7 @@ plt.grid() # == plt.grid(True)
 plt.grid(color=&apos;b&apos; , linewidth=&apos;0.3&apos; ,linestyle=&apos;--&apos;)
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_25_0.png" alt="png"></p>
+<p><img src="images/paper01/output_25_0.png" alt="png"></p>
 <h2 id="&#x591A;&#x91CD;&#x7F51;&#x7EDC;"><a name="&#x591A;&#x91CD;&#x7F51;&#x7EDC;" class="anchor-navigation-ex-anchor" href="#&#x591A;&#x91CD;&#x7F51;&#x7EDC;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x591A;&#x91CD;&#x7F51;&#x7EDC;</h2>
 <h4 id="&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;"><a name="&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4EE3;&#x7801;&#x8BF4;&#x660E;&#xFF1A;</h4>
 <p>  1&#x3001;&#x5C06;&#x6574;&#x4E2A;&#x8868;&#x6309;&#x7167; 2*2 &#x5212;&#x5206;</p>
@@ -619,7 +603,7 @@ plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_27_0.png" alt="png"></p>
+<p><img src="images/paper01/output_27_0.png" alt="png"></p>
 <h2 id="3d&#x56FE;"><a name="3d&#x56FE;" class="anchor-navigation-ex-anchor" href="#3d&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>3D&#x56FE;</h2>
 <pre><code class="lang-python">import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -636,7 +620,7 @@ ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=&apos;hot&apos;)
 
 plt.show()
 </code></pre>
-<p><img src="../images/matplotlib/paper01/output_29_0.png" alt="png"></p>
+<p><img src="images/paper01/output_29_0.png" alt="png"></p>
  <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
                                 
                                 </section>
@@ -664,12 +648,12 @@ plt.show()
 
             
                 
-                <a href="matplotlib.html" class="navigation navigation-prev " aria-label="Previous page: matplotlib">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Introduction">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../../工程工具/git连接多个账号.html" class="navigation navigation-next " aria-label="Next page: git链接多个账号">
+                <a href="../工程工具/git连接多个账号.html" class="navigation navigation-next " aria-label="Next page: git链接多个账号">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -680,42 +664,42 @@ plt.show()
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"学习笔记01-基本示例","level":"1.2.1","depth":2,"next":{"title":"git链接多个账号","level":"2.1","depth":1,"path":"工程工具/git连接多个账号.md","ref":"工程工具/git连接多个账号.md","articles":[]},"previous":{"title":"matplotlib","level":"1.2","depth":1,"path":"数据分析/matplotlib/matplotlib.md","ref":"数据分析/matplotlib/matplotlib.md","articles":[{"title":"学习笔记01-基本示例","level":"1.2.1","depth":2,"path":"数据分析/matplotlib/基本绘图示例.md","ref":"数据分析/matplotlib/基本绘图示例.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","search-plus@^0.0.11","simple-page-toc@^0.1.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","katex@^1.1.3","splitter@^0.0.8","mermaid-gb3@2.1.0","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","local-video@^1.0.1","anchor-navigation-ex@0.1.8","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","musicxml@^1.0.2","klipse@^1.2.0","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"include-csv":{},"emphasize":{},"ace":{},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"alerts":{},"3-ba":{"configuration":"auto","token":"ff100361cdce95dd4c8fb96b4009f7bc"},"expandable-chapters-small":{},"local-video":{},"klipse":{"myConfigKey":"it's the default value"},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"douban":false,"linkedin":true,"messenger":false,"qq":false,"qzone":false,"weibo":true,"whatsapp":false,"all":["twitter","weibo","linkedin","qq","qzone"]},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"xiachi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Maye的个人笔记","language":"zh-hans","output.name":"site","links":{"sidebar":{"Maye的个人博客":"https://starmaye.github.io"}},"gitbook":"3.2.3","description":"主要记录个人的学习笔记"},"file":{"path":"数据分析/matplotlib/基本绘图示例.md","mtime":"2017-12-15T02:26:42.052Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-15T16:48:06.318Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"matplotlib基本绘图示例","level":"2.1","depth":1,"next":{"title":"git链接多个账号","level":"3.1","depth":1,"path":"工程工具/git连接多个账号.md","ref":"工程工具/git连接多个账号.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"SUMMARY.md","ref":"SUMMARY.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","search-plus@^0.0.11","simple-page-toc@^0.1.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","katex@^1.1.3","splitter@^0.0.8","mermaid-gb3@2.1.0","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","local-video@^1.0.1","anchor-navigation-ex@0.1.8","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","musicxml@^1.0.2","klipse@^1.2.0","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"include-csv":{},"emphasize":{},"ace":{},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"alerts":{},"3-ba":{"configuration":"auto","token":"ff100361cdce95dd4c8fb96b4009f7bc"},"expandable-chapters-small":{},"local-video":{},"klipse":{"myConfigKey":"it's the default value"},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"douban":false,"linkedin":true,"messenger":false,"qq":false,"qzone":false,"weibo":true,"whatsapp":false,"all":["twitter","weibo","linkedin","qq","qzone"]},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"xiachi","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"SUMMARY.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Maye的个人笔记","language":"zh-hans","output.name":"site","links":{"sidebar":{"Maye的个人博客":"https://starmaye.github.io"}},"gitbook":"3.2.3","description":"主要记录个人的学习笔记"},"file":{"path":"数据分析/matplotlib基本绘图示例.md","mtime":"2017-12-15T17:21:58.988Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-03T15:29:39.508Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
     
-    <script src="../../gitbook/gitbook.js"></script>
-    <script src="../../gitbook/theme.js"></script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
-        
-    
-        
-        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
         
     
         
@@ -723,47 +707,47 @@ plt.show()
         
     
         
-        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
+        <script src="../gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
         
     
         
-        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 
-    <script src="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>
